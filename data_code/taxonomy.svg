@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="1152" viewBox="0 0 2048 1152" role="img" aria-labelledby="title desc">
+  <title id="title">Two-layer organization of symbolic-model assessment</title>
+  <desc id="desc">Layer A profiles five dimensions of interpretability. Layer B separates deployment decision and selection into four auditable criteria.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f8fafc"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f5faff"/><stop offset="1" stop-color="#e7f1f9"/></linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff8f7"/><stop offset="1" stop-color="#fcebea"/></linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="145%"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#24384a" flood-opacity=".12"/></filter>
+    <style>
+      .sans{font-family:"Segoe UI",Arial,Helvetica,sans-serif}.title{font-size:53px;font-weight:750;fill:#102e50}.layerA{font-size:34px;font-weight:750;fill:#123f67}.layerB{font-size:34px;font-weight:750;fill:#7d241c}.label{font-size:25px;font-weight:550;fill:#20303f}.iconA{fill:none;stroke:#145b90;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.iconB{fill:none;stroke:#b3261e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.footer{font-size:27px;font-style:italic;fill:#34495e}
+    </style>
+  </defs>
+  <rect width="2048" height="1152" fill="url(#bg)"/>
+  <text class="sans title" x="1024" y="78" text-anchor="middle">Two-layer organization of symbolic-model assessment</text>
+
+  <g class="sans layerA"><text x="45" y="250">Layer A</text><text x="45" y="300">Interpretability</text><text x="45" y="350">assessment</text></g>
+  <path d="M330 165V525" stroke="#145b90" stroke-width="4"/><circle cx="330" cy="165" r="7" fill="#145b90"/><circle cx="330" cy="525" r="7" fill="#145b90"/>
+
+  <g filter="url(#shadow)" fill="url(#blue)" stroke="#145b90" stroke-width="3">
+    <rect x="365" y="145" width="310" height="395" rx="25"/><rect x="690" y="145" width="310" height="395" rx="25"/><rect x="1015" y="145" width="310" height="395" rx="25"/><rect x="1340" y="145" width="310" height="395" rx="25"/><rect x="1665" y="145" width="310" height="395" rx="25"/>
+  </g>
+  <g class="iconA">
+    <path d="M468 300q-33-35-8-84 23-45 78-39 47 5 60 49 9 31-13 56l-17 20v35h-69v-25z"/><circle cx="509" cy="227" r="7"/><circle cx="543" cy="210" r="7"/><circle cx="567" cy="237" r="7"/><path d="M515 226l22-13 24 20"/>
+    <path d="M760 318V190M760 318h160M782 288q30-72 62-42t55-50"/><circle cx="782" cy="288" r="7" fill="#fff"/><circle cx="844" cy="246" r="7" fill="#fff"/><circle cx="899" cy="196" r="7" fill="#fff"/>
+    <path d="M1170 176q42 32 82 34v55q0 58-82 94-82-36-82-94v-55q40-2 82-34z"/><path d="m1128 262 30 31 57-66" stroke-width="8"/>
+    <path d="M1417 318V206M1417 318h160M1441 318v-57h25v57M1480 318v-94h25v94M1519 318v-69h25v69M1558 318v-126h25"/><path d="m1438 233 48-36 45 23 48-50"/>
+    <rect x="1747" y="185" width="88" height="126" rx="8"/><path d="M1772 185v-15h38v15M1767 221l9 9 17-19M1767 252l9 9 17-19M1767 283l9 9 17-19M1805 221h16M1805 252h16"/><circle cx="1848" cy="291" r="34" fill="#fff"/><path d="m1872 315 30 31" stroke-width="8"/>
+  </g>
+  <g class="sans label" text-anchor="middle">
+    <text x="520" y="430"><tspan x="520">Structural &amp; cognitive</tspan><tspan x="520" dy="34">accessibility</tspan></text>
+    <text x="845" y="430"><tspan x="845">Variable attribution</tspan><tspan x="845" dy="34">&amp; interaction</tspan></text>
+    <text x="1170" y="430"><tspan x="1170">Physical &amp; knowledge</tspan><tspan x="1170" dy="34">consistency</tspan></text>
+    <text x="1495" y="430"><tspan x="1495">Numerical &amp; structural</tspan><tspan x="1495" dy="34">robustness</tspan></text>
+    <text x="1820" y="430"><tspan x="1820">Human utility</tspan><tspan x="1820" dy="34">&amp; auditability</tspan></text>
+  </g>
+
+  <path d="M45 600H1975" stroke="#94a3ad" stroke-width="3"/><circle cx="45" cy="600" r="6" fill="#94a3ad"/><circle cx="1975" cy="600" r="6" fill="#94a3ad"/>
+  <g class="sans layerB"><text x="45" y="765">Layer B</text><text x="45" y="815">Decision &amp;</text><text x="45" y="865">selection</text></g>
+  <path d="M330 690V1000" stroke="#b3261e" stroke-width="4"/><circle cx="330" cy="690" r="7" fill="#b3261e"/><circle cx="330" cy="1000" r="7" fill="#b3261e"/>
+
+  <g filter="url(#shadow)" fill="url(#red)" stroke="#b3261e" stroke-width="3">
+    <rect x="390" y="665" width="365" height="350" rx="25"/><rect x="795" y="665" width="365" height="350" rx="25"/><rect x="1200" y="665" width="365" height="350" rx="25"/><rect x="1605" y="665" width="365" height="350" rx="25"/>
+  </g>
+  <g class="iconB">
+    <path d="M474 875V720M474 875h187M496 848l42-46 40 18 49-76"/><circle cx="496" cy="848" r="7" fill="#fff"/><circle cx="538" cy="802" r="7" fill="#fff"/><circle cx="578" cy="820" r="7" fill="#fff"/><circle cx="627" cy="744" r="7" fill="#fff"/><path d="m618 747 20-16 3 25"/>
+    <path d="M866 730h220l-83 102v74l-54-30v-44z"/><circle cx="906" cy="710" r="8"/><circle cx="956" cy="710" r="8"/><circle cx="1006" cy="710" r="8"/><circle cx="1056" cy="710" r="8"/>
+    <path d="M1272 890V716M1272 890h217"/><path d="M1296 754q102 4 162 100"/><circle cx="1320" cy="770" r="8" fill="#b3261e"/><circle cx="1361" cy="786" r="9" fill="#b3261e"/><circle cx="1402" cy="813" r="10" fill="#b3261e"/><circle cx="1442" cy="850" r="9" fill="#fff"/>
+    <path d="M1668 873h238M1690 870q40-15 60-88 20-75 53-75t53 75q20 73 39 88"/><path d="M1750 870V782M1803 870V707M1856 870V782" opacity=".55"/>
+  </g>
+  <g class="sans label" text-anchor="middle">
+    <text x="572" y="945"><tspan x="572">Predictive</tspan><tspan x="572" dy="34">performance</tspan></text>
+    <text x="978" y="945"><tspan x="978">Hard feasibility</tspan><tspan x="978" dy="34">filters</tspan></text>
+    <text x="1382" y="945"><tspan x="1382">Pareto</tspan><tspan x="1382" dy="34">analysis</tspan></text>
+    <text x="1787" y="945"><tspan x="1787">Rank uncertainty</tspan><tspan x="1787" dy="34">&amp; GSA</tspan></text>
+  </g>
+  <text class="sans footer" x="1024" y="1096" text-anchor="middle">Interpretability is profiled; deployment choice is a separate, auditable decision.</text>
+</svg>

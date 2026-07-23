@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1100" viewBox="0 0 2200 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Auditable symbolic-model selection framework</title>
+  <desc id="desc">A feasibility-first symbolic-model workflow with pass and fail branches, Pareto filtering, sensitivity analysis, expert review, and a feedback loop.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f8fafc"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f4f9fd"/><stop offset="1" stop-color="#e5f0f9"/></linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff7f6"/><stop offset="1" stop-color="#fbe8e6"/></linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="145%"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#24384a" flood-opacity=".13"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#173f68"/></marker>
+    <style>
+      .sans{font-family:"Segoe UI",Arial,Helvetica,sans-serif}.node{fill:url(#blue);stroke:#145b90;stroke-width:4}.reject{fill:url(#red);stroke:#9f2f26;stroke-width:4}.txt{font-size:27px;font-weight:600;fill:#17324e}.txtR{font-size:27px;font-weight:650;fill:#922b21}.icon{fill:none;stroke:#145b90;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.iconR{fill:none;stroke:#9f2f26;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.flow{fill:none;stroke:#173f68;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}.feedback{fill:none;stroke:#54748f;stroke-width:5;stroke-dasharray:14 12;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="2200" height="1100" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <rect class="node" x="38" y="100" width="290" height="365" rx="28"/>
+    <rect class="node" x="390" y="100" width="270" height="365" rx="28"/>
+    <rect class="node" x="722" y="100" width="290" height="365" rx="28"/>
+    <path class="reject" d="M1182 70 1335 282 1182 494 1029 282z"/>
+    <rect class="node" x="1397" y="100" width="320" height="365" rx="28"/>
+    <rect class="node" x="1780" y="100" width="290" height="365" rx="28"/>
+    <rect class="reject" x="1037" y="680" width="290" height="320" rx="28"/>
+    <rect class="node" x="1397" y="680" width="320" height="320" rx="28"/>
+    <rect class="node" x="1780" y="680" width="290" height="320" rx="28"/>
+  </g>
+
+  <path class="flow" d="M328 282H390"/><path class="flow" d="M660 282H722"/><path class="flow" d="M1012 282H1029"/>
+  <path class="flow" d="M1335 282H1397"/><path class="flow" d="M1717 282H1780"/>
+  <path class="flow" d="M1182 494V680"/><path class="flow" d="M1925 465V575H1557V680"/>
+  <path class="flow" d="M1717 840H1780"/>
+  <path class="feedback" d="M1037 850H760Q525 850 525 485"/>
+  <text class="sans" x="1361" y="246" font-size="26" font-weight="700" fill="#18794e">pass</text>
+  <text class="sans" x="1212" y="585" font-size="26" font-weight="700" fill="#9f2f26">fail</text>
+  <text class="sans" x="680" y="824" font-size="24" font-style="italic" fill="#54748f">revise search/constraints</text>
+
+  <g class="icon">
+    <ellipse cx="135" cy="170" rx="52" ry="18"/><path d="M83 170v90c0 10 23 18 52 18s52-8 52-18v-90M83 215c0 10 23 18 52 18s52-8 52-18"/><circle cx="235" cy="194" r="10"/><circle cx="274" cy="145" r="10"/><circle cx="282" cy="235" r="10"/><path d="m244 186 22-32M244 201l29 27"/>
+    <path d="M468 137h86l38 38v101H468zM554 137v38h38"/><text class="sans" x="490" y="210" font-size="36" font-weight="700" fill="#145b90" stroke="none">Σ</text><path d="M493 237h34M548 221l17 32M565 221l-17 32"/>
+    <circle cx="847" cy="195" r="64"/><path d="M802 224v-79M802 224h82M814 210q31-72 65-28"/><circle cx="914" cy="247" r="30" fill="#fff"/><path d="m900 246 10 10 18-22"/>
+    <path d="M1492 240V148M1492 240h130M1515 240v-43h22v43M1551 240v-78h22v78M1587 240v-56h22v56"/><path d="m1514 184 39-31 34 19 38-55"/>
+    <path d="M1848 244V145M1848 244h144"/><path d="M1863 162q42 46 112 65"/><circle cx="1870" cy="170" r="7" fill="#145b90"/><circle cx="1904" cy="202" r="7" fill="#145b90"/><circle cx="1940" cy="220" r="7" fill="#145b90"/><circle cx="1976" cy="229" r="7" fill="#145b90"/>
+    <path d="M1485 796h145M1485 840h145M1485 884h145"/><circle cx="1534" cy="796" r="10" fill="#fff"/><circle cx="1584" cy="840" r="10" fill="#fff"/><circle cx="1515" cy="884" r="10" fill="#fff"/>
+    <circle cx="1912" cy="815" r="44"/><circle cx="1912" cy="798" r="13"/><path d="M1888 840q24-27 48 0M1858 797q-18 0-18 25M1966 797q18 0 18 25"/><circle cx="1858" cy="782" r="10"/><circle cx="1966" cy="782" r="10"/><path d="m1945 848 32 32" stroke-width="8"/>
+  </g>
+  <g class="iconR">
+    <path d="M1140 190q42 30 84 33v45q0 48-42 78-42-30-42-78v-45q42-3 84-33"/><path d="M1178 180q0-32 22-32t22 32M1165 247h35M1165 273h35"/>
+    <rect x="1132" y="730" width="100" height="135" rx="8"/><path d="M1157 730v-15h50v15M1155 770h54M1155 798h54M1155 826h34"/><circle cx="1234" cy="850" r="35" fill="#fff"/><path d="m1219 835 30 30m0-30-30 30"/>
+  </g>
+
+  <g class="sans txt" text-anchor="middle">
+    <text x="183" y="330"><tspan x="183">Data, domain</tspan><tspan x="183" dy="35">knowledge &amp;</tspan><tspan x="183" dy="35">operational domain</tspan></text>
+    <text x="525" y="330"><tspan x="525">Generate</tspan><tspan x="525" dy="35">symbolic</tspan><tspan x="525" dy="35">candidates</tspan></text>
+    <text x="867" y="330"><tspan x="867">Simplify &amp;</tspan><tspan x="867" dy="35">check expression</tspan><tspan x="867" dy="35">domain</tspan></text>
+    <text x="1557" y="330"><tspan x="1557">Compute separate</tspan><tspan x="1557" dy="35">performance &amp;</tspan><tspan x="1557" dy="35">interpretability profiles</tspan></text>
+    <text x="1925" y="340"><tspan x="1925">Pareto</tspan><tspan x="1925" dy="36">filtering</tspan></text>
+    <text x="1557" y="930"><tspan x="1557">Preference &amp;</tspan><tspan x="1557" dy="36">threshold GSA</tspan></text>
+    <text x="1925" y="925"><tspan x="1925">Expert review &amp;</tspan><tspan x="1925" dy="35">final admissible</tspan><tspan x="1925" dy="35">model set</tspan></text>
+  </g>
+  <g class="sans txtR" text-anchor="middle">
+    <text x="1182" y="375"><tspan x="1182">Hard physical</tspan><tspan x="1182" dy="36">constraints?</tspan></text>
+    <text x="1182" y="915"><tspan x="1182">Reject model &amp;</tspan><tspan x="1182" dy="35">record audit</tspan><tspan x="1182" dy="35">reason</tspan></text>
+  </g>
+</svg>
